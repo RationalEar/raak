@@ -184,7 +184,7 @@
 					</ul>
 					
 					<p>
-						&copy; Copyright 2012 - <?php echo date('Y').' '.anchor( base_url(), $this->config->item('business-name'), 
+						&copy; Copyright 2012 - <?php echo date('Y').' '.anchor( base_url(), $this->config->item('website'), 
 						'class="invarseColor"'); ?><br>
 						powered by <?php echo anchor('https://www.zimall.co.zw', 'Zimall Online', 'target="_blank"')?><br>
 						<ul class="local-payments inline pull-left">
