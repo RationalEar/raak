@@ -44,31 +44,37 @@
 									<div class="form-group">
 										<label class="control-label col-sm-4">Bank:</label>
 										<div class="col-sm-8">
-											<div><strong>Standard Chartered Bank</strong></div>
+											<div><strong><?php echo $this->config->item('bank_name');?></strong></div>
 										</div>
 									</div>
 									<div class="form-group">
 										<label class="control-label col-sm-4">Account Name:</label>
 										<div class="col-sm-8">
-											<div><strong><?php echo $this->config->item('site-name')?></strong></div>
+											<div><strong><?php echo $this->config->item('bank_account_name');?></strong></div>
 										</div>
 									</div>
 									<div class="form-group">
 										<label class="control-label col-sm-4">Account Number:</label>
 										<div class="col-sm-8">
-											<div><strong>8700 218304 200</strong></div>
+											<div><strong><?php echo $this->config->item('bank_account_number');?></strong></div>
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="control-label col-sm-4">Branch:</label>
+										<label class="control-label col-sm-4">Branch Name:</label>
 										<div class="col-sm-8">
-											<div><strong>Southerton</strong></div>
+											<div><strong><?php echo $this->config->item('bank_branch_name');?></strong></div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-sm-4">Branch Code:</label>
+										<div class="col-sm-8">
+											<div><strong><?php echo $this->config->item('bank_branch_code');?></strong></div>
 										</div>
 									</div>
 									<div class="form-group">
 										<label class="control-label col-sm-4">Swift Code:</label>
 										<div class="col-sm-8">
-											<div><strong>SCBLZWHXXXX</strong></div>
+											<div><strong><?php echo $this->config->item('bank_swift_code');?></strong></div>
 										</div>
 									</div>
 									
