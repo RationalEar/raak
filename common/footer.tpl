@@ -186,14 +186,8 @@
 					<p>
 						&copy; Copyright 2012 - <?php echo date('Y').' '.anchor( base_url(), $this->config->item('website'), 
 						'class="invarseColor"'); ?><br>
-						powered by <?php echo anchor('https://www.zimall.co.zw', 'Zimall Online', 'target="_blank"')?><br>
+						<!-- powered by <?php echo anchor('https://www.zimall.co.zw', 'Zimall Online', 'target="_blank"')?><br> -->
 						<ul class="local-payments inline pull-left">
-					<?php if( substr_compare( base_url(), 'http://localhost', 0, 16) !=0 && 0>1):?>
-						<li class="pull-left" style="text-align:left;">
-							<span id="siteseal">
-								<script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=sAuqaezhJKNNOM2TGb9oGpO5m4DsM8WZqoA7RCifdfjpah9UvAWt1"></script></span>
-						</li>
-					<?php endif;?>
 					</ul>
 					</p>
 				</div>
@@ -202,7 +196,7 @@
 		</div>
 	</footer>
 		<!--end footer-->
-<br clear="all"><br clear="all"><br clear="all">
+<!-- <br clear="all"><br clear="all"><br clear="all"> -->
 
 
 
